@@ -2,7 +2,7 @@ let nomeHeroi = "Shupper";
 let xpHeroi = 8523;
 let nivelHeroi;
 
-// Estrutura de decisão para classificar o nível
+
 if (xpHeroi < 1000) {
     nivelHeroi = "Ferro";
 } else if (xpHeroi >= 1001 && xpHeroi <= 2000) {
@@ -21,11 +21,8 @@ if (xpHeroi < 1000) {
     nivelHeroi = "Radiante";
 }
 
-// Saída
 console.log(`O Herói de nome ${nomeHeroi} está no nível de ${nivelHeroi}`);
 
-
-// Exemplo com laço de repetição testando vários heróis
 console.log("\n--- Testando múltiplos heróis ---");
 
 let herois = [
