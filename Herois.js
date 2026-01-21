@@ -2,7 +2,6 @@ let nomeHeroi = "Shupper";
 let xpHeroi = 8523;
 let nivelHeroi;
 
-
 if (xpHeroi < 1000) {
     nivelHeroi = "Ferro";
 } else if (xpHeroi >= 1001 && xpHeroi <= 2000) {
